@@ -1,0 +1,208 @@
+body {
+  background: #DDD;
+  font-size: 1.2rem;
+  color: rgb(80, 80, 80);
+  font-weight: 300;
+}
+
+#signUp-box,
+#logIn-box {
+  display: flex;
+  position: relative;
+  margin: 5% auto;
+  width: 35rem;
+  height: 25rem;
+  background: #FFF;
+  border-radius: 2px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  justify-content: space-around;
+  align-items: center;
+}
+
+h1 {
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.or {
+  display: flex;
+  background: #DDD;
+  border-radius: 50%;
+  width: 2.6rem;
+  height: 2.6rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  align-items: center;
+  justify-content: center;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.8rem;
+  margin-top: 1rem;
+}
+
+
+.right .loginWith {
+  display: block;
+  margin-top: 1rem;
+  margin-bottom: 1.6rem;
+  color: rgb(80, 80, 80);
+  text-align: center;
+}
+
+input[type="text"],
+input[type="password"] {
+  display: block;
+  box-sizing: border-box;
+  margin-bottom: 1.4rem;
+  border: none;
+  border-bottom: 1px solid #AAA;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+  border-bottom: 2px solid #16a085;
+  color: #16a085;
+  transition: 0.2s ease;
+}
+
+input[type="submit"] {
+  margin-bottom: 2rem;
+}
+
+button.social-signin {
+  margin-bottom: 1.2rem;
+  width: 13rem;
+  height: 2.2rem;
+  border: none;
+  border-radius: 2px;
+  color: #FFF;
+  font-weight: 500;
+  transition: 0.2s ease;
+  cursor: pointer;
+}
+
+button.social-signin:hover,
+button.social-signin:focus {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  transition: 0.2s ease;
+}
+
+button.social-signin:active {
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+  transition: 0.2s ease;
+}
+
+button.social-signin.facebook {
+  background: #32508E;
+}
+
+button.social-signin.twitter {
+  background: #55ACEE;
+}
+
+button.social-signin.google {
+  background: #DD4B39;
+}
+
+.loginCenter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.loginClass {
+  display: flex;
+  justify-content: center;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: 1.6rem;
+}
+
+#nav-mobile {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  gap: 1.6rem;
+}
+
+.list {
+  text-decoration: none;
+  color: rgb(80, 80, 80);
+}
+
+.enterBtn,
+.enterBtn:link,
+.enterBtn:visited {
+  color: rgb(238, 182, 0);
+  background-color: rgb(160, 160, 160);
+  border-radius: 1rem;
+  width: 6.6rem;
+  height: 2rem;
+  border: 1px;
+  transition: all 1s;
+  cursor: pointer;
+}
+
+.enterBtn:hover,
+.enterBtn:active {
+  background-color: rgb(131, 131, 131);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.orLogin {
+  color: rgb(238, 182, 0);
+  background-color: rgb(160, 160, 160);
+  border-radius: 1rem;
+  border: 1px;
+  width: 18rem;
+  height: 2rem;
+  cursor: pointer;
+  transition: all 1s;
+}
+
+.orLogin:hover,
+.orLogin:active {
+  background-color: rgb(131, 131, 131);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.cartAmount {
+  font-size: 1.3rem;
+  background-color: red;
+  color: white;
+  position: absolute;
+  top: -15px;
+  right: -5px;
+  padding: 2px;
+  border-radius: 5px;
+}
+
+.bi-cart{
+  font-size: 2.4rem;
+}
+
+.cartEl {
+  position: relative;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.is-hidden {
+  display: none;
+}
